@@ -12,15 +12,21 @@ body .card{
 }
 .section1 {
     background-color: #1F2937;
-    padding: 1px 13em;
-    
+    padding: 1px 13em; 
+}
+.section2 {
+    align-items: center;
+    padding: 2em 1px;
 }
 .section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 200px;
     background-color: #E5E7EB;  
 }
-.section5{
-    background-color:#1F2937
-}
+/* section 1 */
 .container{
     display:flex;
     justify-content: space-between;
@@ -33,7 +39,6 @@ body .card{
     font-weight: bold;
     text-align: left;
     padding: 10px;
-    margin-left: 20px;
 }
 ul {
     display: flex;
@@ -48,8 +53,13 @@ a {
     color: #E5E7EB;
     padding: 10px;
 }
+.img {
+    display:flex;
+    height: 400px;
+}
 .img img {
     max-width: 100%;
+    min-width:300px;
 }
 .words{
     text-align: left;
@@ -87,22 +97,97 @@ a {
     font-weight: bold;
     font-size: 18px;
 }
+/* section 2 */
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 32px;
+
+}
 .container2 {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 52px;
+    flex-wrap:wrap;
+    padding-bottom: 20px;
 }
 .info {
-    max-width: 100%;
+    max-width: 200px;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
 }
+.info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-width: 5px;
+    border-style: solid;
+    border-color:#3882f6;
+    border-radius: 25px;
+    margin-bottom: 5px;
+}
+/* section 3 */
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    color:#1F2937;
+    text-align:left;
+    margin-bottom: 10px;
+}
+.author {
+    align-self:flex-end;
+    font-weight: bold; 
+}
+/*section 4*/
 .box {
     display:flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: #3882f6;
-    margin: 20px 48px;
+    margin: 100px 200px;
+    border-radius: 10px;
+    padding: 50px 100px;
+    
 }
+.sign-button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    border-color: white;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: none;
+    outline-style: none;
+}
+
+.CTA {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+.last {
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.text {
+    color: white;
+    font-weight: lighter;
+}
+/* footer */
 footer{ 
     background-color:#1F2937;
     text-align: center;
     color: white;
-    padding: 20px;
+    padding: 30px;
 }
