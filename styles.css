@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Roboto', arial;
     padding: 0;
@@ -10,39 +11,31 @@ body .card{
     flex: 1 1 auto;
 }
 .section1 {
-    display:flex;
     background-color: #1F2937;
-    padding: 8px 32px;
+    padding: 1px 13em;
     
-}
-.section2 {
-    
-
 }
 .section3{
-    background-color: #E5E7EB;
-    
-}
-.section4{
+    background-color: #E5E7EB;  
 }
 .section5{
     background-color:#1F2937
 }
-.nav {
-   
-}
 .container{
     display:flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     
 }
 .logo {
     color: white;
     font-size: x-large;
     font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    margin-left: 20px;
 }
-.links {
+ul {
     display: flex;
     list-style-type: none;
     margin: 0;
@@ -55,15 +48,14 @@ a {
     color: #E5E7EB;
     padding: 10px;
 }
-.header img {
-    display:flex;
-    align-items:center;
-    flex:1;
+.img img {
     max-width: 100%;
 }
-.header .words{
-    flex:1;
+.words{
+    text-align: left;
     padding: 10px;
+    margin-left: 20px;
+    max-width: 600px;
 }
 .words p {
     font-size: 18px;
@@ -75,10 +67,15 @@ a {
     color: #F9FAF8;
 }
 .header{
-    display: flex;
-    align-items: flex-start;
-    margin: 0 auto;
+    padding: 7em 0;
+    display:flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    justify-content:center;
+    gap:20px;
+    
 }
+
 .header-button {
     background-color: #3882f6;
     color: #E5E7EB;
