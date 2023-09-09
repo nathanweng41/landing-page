@@ -117,8 +117,8 @@ a {
     gap: 10px;
 }
 .info img {
-    width: 200px;
-    height: 200px;
+    max-width: 100%;
+    height: auto;
     object-fit: cover; 
     border-width: 5px;
     border-style: solid;
